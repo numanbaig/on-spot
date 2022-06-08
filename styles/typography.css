@@ -1,0 +1,42 @@
+h1{
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 35px;
+  font-family: Montserrat-Bold;
+}
+
+h2{
+  font-size: 28px;
+  font-weight: 800;
+    font-family: Montserrat-Bold;
+}
+h3{
+  font-size: 26px;
+  font-weight: 700;
+    font-family: Montserrat-Bold;
+}
+
+h4{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 40px;
+    font-family: Montserrat-Bold;
+}
+h5{
+  font-size: 20px;
+  font-weight: 600;
+    font-family: Montserrat-Medium;
+}
+
+h6{
+  font-size: 18px;
+  font-weight: 600;
+    font-family: Montserrat-Normal;
+}
+ 
+p{
+  font-size: 16px;
+  font-weight: 300;
+  font-family: Montserrat-Regular;
+}
+ 
