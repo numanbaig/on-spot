@@ -2,9 +2,9 @@ import React from 'react';
 import Link from "next/link"
 const ImageSection = () => {
     return (
-        <div style={{ backgroundSize: '100% auto' }}
+        <div style={{ backgroundSize: '100% auto',backgroundRepeat:"no-repeat" }}
             className="relative h-[110vh] flex  justify-center 
-        bg-[url(/images/section1-bg.png)] no-repeat bg-top top-[-100px]">
+        bg-[url(/images/section1-bg.png)] no-repeat bg-bottom top-[-100px]">
             <div className="flex flex-col absolute left-0 top-[40px] bg-[#fff] p-2 rounded-r-lg">
                 {[
                     { image: '/images/fb.png' },

@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-
+import HeroSection from '../components/HeroSection/Index'
 import '../styles/Home.module.css'
 import Form from '../components/Form'
 import ImageSection from '../components/ImageSection/ImageSection'
@@ -13,6 +13,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <ImageSection />
+      <HeroSection/>
       <Form />
     </div>
   )
