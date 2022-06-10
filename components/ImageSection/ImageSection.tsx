@@ -2,17 +2,17 @@ import React from 'react';
 import Link from "next/link"
 const ImageSection = () => {
     return (
-        <div style={{ backgroundSize: '100% auto',backgroundRepeat:"no-repeat" }}
-            className="relative h-[110vh] flex  justify-center 
+        <div style={{ backgroundSize: '100% auto',backgroundRepeat:"no-repeat" ,aspectRatio:'3/2'}}
+            className="relative flex  justify-center 
         bg-[url(/images/section1-bg.png)] no-repeat bg-bottom top-[-100px]">
-            <div className="flex flex-col absolute left-0 top-[40px] bg-[#fff] p-2 rounded-r-lg">
+            <div className="flex flex-col absolute left-0 top-[137px] bg-[#fff] p-2 rounded-r-lg ">
                 {[
                     { image: '/images/fb.png' },
                     { image: '/images/fb.png' },
                     {
                         image: '/images/twitter.png'
                     }].map((item, index) => (
-                        <div key={index} className="flex justify-center items-center m-2">
+                        <div key={index} className="flex justify-center items-center m-2 ">
                             <img className="w-[30px]  h-[30px]" src={item.image} />
                         </div>
                     ))}
