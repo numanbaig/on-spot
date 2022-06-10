@@ -5,6 +5,8 @@ import "../styles/Home.module.css";
 import Form from "../components/Form";
 import ImageSection from "../components/ImageSection/ImageSection";
 import Service from "../components/Service/Service";
+import Dedicamos from "../components/Dedicamos/Dedicamos";
+
 const Home: NextPage = () => {
   return (
     <div>
@@ -14,8 +16,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <ImageSection />
-      <Service />
-      <Form />
+      <Dedicamos />
     </div>
   );
 };

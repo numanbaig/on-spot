@@ -9,6 +9,7 @@ interface CardProps {
   paragraph: string;
   heading2?: string;
   heading3?: string;
+  heading4?: string;
 }
 
 const Cards = ({
@@ -18,6 +19,7 @@ const Cards = ({
   paragraph,
   heading2,
   heading3,
+  heading4,
 }: CardProps) => {
   return (
     <div className=" ">
@@ -25,7 +27,7 @@ const Cards = ({
         <div className=" w-[229px] absolute top-[-71px]  ">
           <Image src={CardIcon} className=" " />{" "}
         </div>
-        <div className="rounded-[7rem] bg-[#8BD10B] bg-opacity-100 w-[100%] min-w-[450px] h-[200px]  bg-[url('/images/CardBackground.png')] bg-no-repeat bg-center bg-[length:430px_175px] relative  mt-10 px-7 ">
+        <div className="rounded-[7rem] bg-[#8BD10B] bg-opacity-100 w-[100%] min-w-[450px] h-[200px]  bg-[url('/images/CardBackground.png')] bg-no-repeat bg-center bg-[length:381px_140px] relative  mt-10 px-7 ">
           <div className="flex justify-center items-center pt-[20px]">
             <div className="">
               <p className="text-[32px] font-black p-[0px] m-[0px] leading-1	">
@@ -43,9 +45,10 @@ const Cards = ({
               <p className="text-[32px] font-black p-[0px] m-[0px] leading-1 	">
                 {" "}
                 {heading2}{" "}
+                <span className="block  leading-1 text-[32px ">{heading4}</span>
               </p>
             </div>
-            <div className="ml-[30px] w-24 ">
+            <div className="ml-[20px] w-[5rem]">
               <Image src={icon} />{" "}
             </div>
           </div>
