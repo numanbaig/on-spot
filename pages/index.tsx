@@ -1,12 +1,18 @@
 import type { NextPage } from "next";
-import Head from "next/head";
 
 import "../styles/Home.module.css";
-import Form from "../components/Form";
 import ImageSection from "../components/ImageSection/ImageSection";
 import Service from "../components/Service/Service";
+<<<<<<< HEAD
 import Dedicamos from "../components/Dedicamos/Dedicamos";
 
+=======
+import Form from "../components/Form/Form";
+import ThirdSection from "../components/ThirdSection/ThirdSection";
+import Head from 'next/head'
+import HeroSection from '../components/HeroSection/Index'
+import '../styles/Home.module.css'
+>>>>>>> d5ae8085cd446cad7b674ea925cc56ffdef7caf9
 const Home: NextPage = () => {
   return (
     <div>
@@ -16,7 +22,15 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <ImageSection />
+<<<<<<< HEAD
       <Dedicamos />
+=======
+      <HeroSection/>
+      <Service />
+      <ThirdSection />
+      <Form />
+      {/* <Form /> */}
+>>>>>>> d5ae8085cd446cad7b674ea925cc56ffdef7caf9
     </div>
   );
 };
