@@ -4,7 +4,7 @@ function Index() {
   return (
     <div
       className="w-[100%] h-auto relative
-    xl:bottom-[225px] lg:bottom-[205px] md:bottom-[167px] sm:bottom-[145px] xs:bottom:[130px]
+    xl:bottom-[250px] lg:bottom-[205px] md:bottom-[167px] sm:bottom-[145px] xs:bottom:[130px]
      z-[-1]"
     >
       <div
