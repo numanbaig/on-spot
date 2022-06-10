@@ -1,9 +1,10 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
+import type { NextPage } from "next";
+import Head from "next/head";
 
-import '../styles/Home.module.css'
-import Form from '../components/Form'
-import ImageSection from '../components/ImageSection/ImageSection'
+import "../styles/Home.module.css";
+import Form from "../components/Form";
+import ImageSection from "../components/ImageSection/ImageSection";
+import Service from "../components/Service/Service";
 const Home: NextPage = () => {
   return (
     <div>
@@ -13,9 +14,10 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <ImageSection />
+      <Service />
       <Form />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
