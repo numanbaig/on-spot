@@ -40,41 +40,43 @@ const Cards = ({
   return (
     <div className=" ">
       <div className=" relative w-[100%]  mx-[1rem]">
-        <div className=" w-[229px] absolute top-[-71px]  ">
+        <div className=" w-[191px] absolute top-[-71px]  ">
           <Image src={CardIcon} className=" " />{" "}
         </div>
 
-        <div className="rounded-[7rem] bg-[#8BD10B] bg-opacity-100 w-[100%] min-w-[450px] h-[200px]  bg-[url('/images/CardBackground.png')] bg-no-repeat bg-center bg-[length:381px_140px] relative  mt-10 px-7 z-10  ">
+        <div className="rounded-[7rem] bg-[#8BD10B] bg-opacity-100 w-[100%] min-w-[415px] h-[156px]  bg-[url('/images/CardBackground.png')] bg-no-repeat bg-center bg-[length:381px_140px] relative  mt-10 px-7 z-10  ">
           <div className="flex justify-center items-center pt-[20px]">
             <div className="">
-              <p className="text-[32px] font-black p-[0px] m-[0px] leading-1	">
+              <p className="text-[24px] font-bold p-[0px] m-[0px] leading-1	">
                 {" "}
-                <span className="block  leading-1 text-[32px ">
+                <span className="block  leading-1 text-[24px] ">
                   {" "}
                   {heading3}{" "}
                 </span>{" "}
                 {heading}{" "}
               </p>
 
-              <p className=" tracking-[1px] min-w-[200px] font-light   ">
+              <p className=" tracking-[1px] min-w-[200px] text-[13px] leading-1  font-bold  ">
                 {name}
               </p>
-              <p className="text-[32px] font-black p-[0px] m-[0px] leading-1 	">
+              <p className="text-[24px] font-bold p-[0px] m-[0px] leading-1 	">
                 {" "}
                 {heading2}{" "}
-                <span className="block  leading-1 text-[32px ">{heading4}</span>
+                <span className="block  leading-1 text-[24px] ">
+                  {heading4}
+                </span>
               </p>
-              <p className=" tracking-[1px] min-w-[200px] font-light   ">
+              <p className=" tracking-[1px] min-w-[200px]  text-[13px] font-bold  ">
                 {name2}
               </p>
             </div>
-            <div className="ml-[20px] w-[5rem]">
+            <div className="ml-[20px] w-[4.5rem]">
               <Image src={icon} />{" "}
             </div>
           </div>
         </div>
         {cardIcons && (
-          <div className="rounded-[5rem] bg-opacity-100 w-[100%] min-w-[450px] h-[200px] bg-[#fff] absolute top-[90px] flex flex-col justify-end  ">
+          <div className="rounded-[5rem] bg-opacity-100 w-[428px] left-[11px] h-[200px] bg-[#fff] absolute top-[51px] flex flex-col justify-end  ">
             <div className=" flex justify-center items-center gap-4">
               <div className="w-[90px] h-[35px]">
                 <Image src={ChaturbateIcon} />
@@ -89,7 +91,7 @@ const Cards = ({
                 <Image src={StripCharIcon} className=" " />
               </div>
             </div>
-            <div className="flex justify-center py-[10px] items-center gap-4">
+            <div className="flex justify-center py-[12px] items-center gap-4">
               <div className="w-[70px] h-[10px]">
                 <Image src={BangacomsIcon} className=" " />
               </div>

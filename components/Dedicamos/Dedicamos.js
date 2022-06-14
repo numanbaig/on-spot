@@ -4,8 +4,8 @@ const Dedicamos = () => {
   return (
     <div className="bg-[url('/images/Section5Background.png')] h-[600px] bg-no-repeat w-[100%] bg-cover relative pt-[70px] top-[-150px]">
       <div className=" w-[700px] relative">
-        <div className="h-[120px] w-[350px] bg-[#8bd10d] mb-10 rounded-tr-[147px] rounded-br-[15px]  bg-[url('/images/CardBackground.png')] bg-no-repeat bg-center bg-[length:276\px_102px] ">
-          <div className=" flex flex-col justify-items-end text-center  p-[20px]">
+        <div className="h-[135px] w-[498px] bg-[#8bd10d] mb-10 rounded-tr-[147px] rounded-br-[15px]  bg-[url('/images/CardBackground.png')] bg-no-repeat bg-center bg-[length:321\px_129px] ">
+          <div className=" flex flex-col justify-items-end text-center  p-[20px] mt-[20px]">
             <h3 className="text-[#fff] text-[32px] leading-1">¿A QUÉ NOS</h3>
             <p className="text-[#fff] text-[20px] leading-1 font-normal">
               DEDICAMOS?{" "}
