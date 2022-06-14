@@ -42,6 +42,7 @@ const Service = () => {
           return (
             <div className=" ">
               <Cards
+                textColor="dark"
                 heading={items.heading}
                 heading3={items.heading3}
                 heading2={items.heading2}
