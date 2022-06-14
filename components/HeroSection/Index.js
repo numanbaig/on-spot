@@ -4,7 +4,7 @@ function Index() {
   return (
     <div
       className="w-[100%] h-auto relative
-    xl:bottom-[225px] lg:bottom-[205px] md:bottom-[167px] sm:bottom-[145px] xs:bottom:[130px]
+    xl:bottom-[250px] lg:bottom-[205px] md:bottom-[167px] sm:bottom-[145px] xs:bottom:[130px]
      z-[-1]"
     >
       <div
@@ -15,9 +15,9 @@ function Index() {
         className="bg-[url(/images/hero.png)] no-repeat bg-inherit absolute w-[100%] flex items-end 
         xl:aspect-[4] lg:aspect-[3] md:aspect-[2.5] "
       >
-        <div className="max-w-[46%]">
+        <div className="max-w-[46%] xl:pt-[4rem] lg:pt-[4rem] md:pt-[0] sm:pt-[0]">
           <Button />
-          <div className="md:w-[60%] lg:w-[58%] sm:w[90%] ml-auto">
+          <div className="md:w-[98%] lg:w-[58%] sm:w[90%] ml-auto ">
             <p className=" py-[2rem] pr-[1rem]">
               Con más de 13 años de experiencia, presencia en 12 países y 454
               somos una de las principales plataformas de procesamientos de
