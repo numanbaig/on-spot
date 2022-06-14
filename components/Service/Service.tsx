@@ -36,12 +36,10 @@ const Service = () => {
       <h1 className="text-6xl font-black leading-7 pb-[121px] pl-[224px]">
         Serviceios
       </h1>
-<<<<<<< HEAD
-      <div className="flex justify-around w-[100%] absolute top-[30%] ">
+      <div className="flex flex-wrap justify-around">
         {data.map((items: any) => {
-          console.log(SoundIcon, "icons");
           return (
-            <div className=" ">
+            <div key={items.name}>
               <Cards
                 textColor="dark"
                 heading={items.heading}
@@ -55,24 +53,6 @@ const Service = () => {
             </div>
           );
         })}
-=======
-      <div className="flex flex-wrap justify-around">
-      {data.map((items: any) => {
-        return (
-          <div key={items.name}>
-            <Cards
-              heading={items.heading}
-              heading3={items.heading3}
-              heading2={items.heading2}
-              heading4={items.heading4}
-              name={items.name}
-              paragraph={items.paragraph}
-              icon={items.icon}
-            />
-          </div>
-        );
-      })}
->>>>>>> 91ac34e3ee0a37bda2d5567f70db71ca0913b7ec
       </div>
     </div>
   );
