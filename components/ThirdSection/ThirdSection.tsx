@@ -5,7 +5,7 @@ import logos from "../../public/images/lgos.png";
 
 const ThirdSection = () => {
   return (
-    <div className="bg-[url('/images/thirdBg.png')] h-[100%] w-[100%] bg-no-repeat bg-cover">
+    <div className="bg-[url('/images/thirdBg.png')] h-[700px] w-[100%] bg-no-repeat bg-cover relative md:top-[-441px] xl:top-[-350px] lg:top-[-400]">
       <div className="flex items-center pt-[8em]">
         <div className="pl-[5rem] mt-32">
           <p className="px-[10rem] font-normal text-[22px] text-[#ffff]">
