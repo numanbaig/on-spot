@@ -32,7 +32,8 @@ const data = [
 
 const Service = () => {
   return (
-    <div className="bg-[url('/images/Section5.png')] w-full flex-col pt-[14rem] bg-cover bg-no-repeat relative top-[-527px]">
+    <div className="bg-[url('/images/Section5.png')] w-full flex-col pt-[14rem] bg-cover bg-no-repeat relative 
+    lg:top-[-550px] xl:top-[-433px] md:top-[-601px]">
       <h1 className="text-6xl font-black leading-7 pb-[121px] pl-[224px]">
         Serviceios
       </h1>

@@ -9,11 +9,10 @@ function Index() {
     >
       <div
         style={{
-          backgroundSize: "100% auto",
+          backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
         }}
-        className="bg-[url(/images/hero.png)] no-repeat bg-inherit absolute w-[100%] flex items-end 
-        xl:aspect-[4] lg:aspect-[3] md:aspect-[2.5] "
+        className="bg-[url(/images/hero.png)] no-repeat xl:bg-top  lg:bg-top md:bg-right absolute w-[100%] flex items-center h-[600px] "
       >
         <div className="max-w-[46%] xl:pt-[4rem] lg:pt-[4rem] md:pt-[0] sm:pt-[0]">
           <Button />

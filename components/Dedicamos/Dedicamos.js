@@ -2,7 +2,7 @@ import React from "react";
 
 const Dedicamos = () => {
   return (
-    <div className="bg-[url('/images/Section5Background.png')] h-[600px] bg-no-repeat w-[100%] bg-cover relative pt-[70px] top-[-150px]">
+    <div className="bg-[url('/images/Section5Background.png')] h-[700px] bg-no-repeat w-[100%] bg-cover relative pt-[70px] top-[25px]">
       <div className=" w-[700px] relative">
         <div className="h-[120px] w-[350px] bg-[#8bd10d] mb-10 rounded-tr-[147px] rounded-br-[15px]  bg-[url('/images/CardBackground.png')] bg-no-repeat bg-center bg-[length:276\px_102px] ">
           <div className=" flex flex-col justify-items-end text-center  p-[20px]">
