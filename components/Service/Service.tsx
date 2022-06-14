@@ -32,27 +32,26 @@ const data = [
 
 const Service = () => {
   return (
-    <div className="bg-[url('/images/Section5.png')] w-full h-[100vh]  flex items-center justify-around flex-col  relative  ">
-      <h1 className=" absolute top-[125px] left-[205px] text-6xl font-black leading-7   ">
+    <div className="bg-[url('/images/Section5.png')] w-full flex-col pt-[14rem] bg-cover bg-no-repeat">
+      <h1 className="text-6xl font-black leading-7 pb-[121px] pl-[224px]">
         Serviceios
       </h1>
-      <div className="flex justify-around w-[100%] absolute top-[30%] ">
-        {data.map((items: any) => {
-          console.log(SoundIcon, "icons");
-          return (
-            <div className=" ">
-              <Cards
-                heading={items.heading}
-                heading3={items.heading3}
-                heading2={items.heading2}
-                heading4={items.heading4}
-                name={items.name}
-                paragraph={items.paragraph}
-                icon={items.icon}
-              />
-            </div>
-          );
-        })}
+      <div className="flex flex-wrap justify-around">
+      {data.map((items: any) => {
+        return (
+          <div key={items.name}>
+            <Cards
+              heading={items.heading}
+              heading3={items.heading3}
+              heading2={items.heading2}
+              heading4={items.heading4}
+              name={items.name}
+              paragraph={items.paragraph}
+              icon={items.icon}
+            />
+          </div>
+        );
+      })}
       </div>
     </div>
   );

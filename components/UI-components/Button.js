@@ -5,7 +5,6 @@ const Button = () => {
     <div
       style={{
         width: '80%',
-        height: 160,
         backgroundColor: "#8BD10B",
         borderTopRightRadius: 100,
         borderBottomRightRadius: 20,
@@ -14,16 +13,14 @@ const Button = () => {
         backgroundRepeatX:"no-repeat",
         backgroundSize:'100% auto',
       }}
-      className="button bg-[url(/images/btn-bg.png)] "
+      className="button bg-[url(/images/btn-bg.png)] relative h-[15vh]"
     >
-     <div className='ml-[16rem]'> <h1
+     <div className=' absolute bottom-[52px] right-[30px]'> <h1
         style={{
           textShadow:'rgba(0, 0, 0, 0.35) 0px 5px 15px;',
           color: "white",
           fontSize: 30,
           textAlign: "center",
-          paddingTop: 30,
-          marginLeft: 20,
         }}
       >
         ¿QUIÉNES

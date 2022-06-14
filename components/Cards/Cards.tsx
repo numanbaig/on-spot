@@ -23,7 +23,7 @@ const Cards = ({
 }: CardProps) => {
   return (
     <div className=" ">
-      <div className=" relative w-[100%]  ">
+      <div className=" relative w-[100%]  mx-[1rem]">
         <div className=" w-[229px] absolute top-[-71px]  ">
           <Image src={CardIcon} className=" " />{" "}
         </div>
