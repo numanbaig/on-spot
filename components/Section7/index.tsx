@@ -33,13 +33,12 @@ const data = [
 
 const Service = () => {
   return (
-    <div className="bg-[url('/images/Section7Bg.png')] w-full h-[90vh]  flex items-center justify-around flex-col  relative  top-[-708px]">
+    <div className="bg-[url('/images/Section7Bg.png')] w-full h-[90vh]  flex items-center justify-around flex-col  relative  top-[-723px]">
       <h1 className=" absolute top-[125px] left-[205px] text-6xl font-black leading-7   ">
         {/* Serviceios */}
       </h1>
       <div className="flex justify-around w-[100%] absolute top-[30%] ">
         {data.map((items: any, index) => {
-          console.log(SoundIcon, "icons");
           return (
             <div className=" ">
               <Cards

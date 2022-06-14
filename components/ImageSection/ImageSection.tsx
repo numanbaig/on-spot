@@ -7,7 +7,7 @@ const ImageSection = () => {
       className="relative aspect-[3/2] flex  justify-center 
         bg-[url(/images/section1-bg.png)] no-repeat bg-top bg-no-repeat bottom-[6rem]"
     >
-      <div className="flex flex-col absolute left-0 top-[40px] bg-[#fff] p-2 rounded-r-lg">
+      <div className="flex flex-col absolute left-0 top-[150px] bg-[#fff] p-2 rounded-r-lg">
         {[
           { image: "/images/fb.png" },
           { image: "/images/fb.png" },
