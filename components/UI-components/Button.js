@@ -1,10 +1,9 @@
 import React from 'react'
 
-const Button = () => {
+const Button = ({title,subtitle}) => {
   return (
     <div
       style={{
-        width: '80%',
         backgroundColor: "#8BD10B",
         borderTopRightRadius: 100,
         borderBottomRightRadius: 20,
@@ -13,7 +12,7 @@ const Button = () => {
         backgroundRepeatX:"no-repeat",
         backgroundSize:'100% auto',
       }}
-      className="button bg-[url(/images/btn-bg.png)] relative h-[15vh]"
+      className="button bg-[url(/images/CardBackground.png)] relative h-[15vh] w-[80%]"
     >
      <div className=' absolute bottom-[52px] right-[30px]'> <h1
         style={{
@@ -23,7 +22,7 @@ const Button = () => {
           textAlign: "center",
         }}
       >
-        ¿QUIÉNES
+        {title || '¿QUIÉNES'}
       </h1>
       <p
         style={{
@@ -31,10 +30,9 @@ const Button = () => {
           fontSize: 16,
           textAlign: "center",
           marginLeft: 100,
-          // paddingTop: 10,
         }}
       >
-        SOMOS?
+        { subtitle||'SOMOS?'}
       </p>
       </div>
     </div>

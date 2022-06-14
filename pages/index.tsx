@@ -7,6 +7,7 @@ import Form from "../components/Form/Form";
 import ThirdSection from "../components/ThirdSection/ThirdSection";
 import Head from "next/head";
 import HeroSection from "../components/HeroSection/Index";
+import Dedicamos from '../components/Dedicamos/Dedicamos'
 import "../styles/Home.module.css";
 const Home: NextPage = () => {
   return (
@@ -24,6 +25,7 @@ const Home: NextPage = () => {
           <Service />
         </div>
         </div>
+        <Dedicamos/>
         <ThirdSection />
         <Form />
       </div>
