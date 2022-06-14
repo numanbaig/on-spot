@@ -37,21 +37,22 @@ const Service = () => {
         Serviceios
       </h1>
       <div className="flex flex-wrap justify-around">
-      {data.map((items: any) => {
-        return (
-          <div key={items.name}>
-            <Cards
-              heading={items.heading}
-              heading3={items.heading3}
-              heading2={items.heading2}
-              heading4={items.heading4}
-              name={items.name}
-              paragraph={items.paragraph}
-              icon={items.icon}
-            />
-          </div>
-        );
-      })}
+        {data.map((items: any) => {
+          return (
+            <div key={items.name}>
+              <Cards
+                textColor="dark"
+                heading={items.heading}
+                heading3={items.heading3}
+                heading2={items.heading2}
+                heading4={items.heading4}
+                name={items.name}
+                paragraph={items.paragraph}
+                icon={items.icon}
+              />
+            </div>
+          );
+        })}
       </div>
     </div>
   );
