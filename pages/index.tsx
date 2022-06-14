@@ -10,6 +10,7 @@ import ThirdSection from "../components/ThirdSection/ThirdSection";
 import Head from "next/head";
 import HeroSection from "../components/HeroSection/Index";
 import Section7 from "../components/Section7";
+import WherePage from "../components/WherePage";
 import "../styles/Home.module.css";
 const Home: NextPage = () => {
   return (
@@ -20,6 +21,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <ImageSection />
+      <WherePage />
       <Dedicamos />
       <HeroSection />
       <Service />
