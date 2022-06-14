@@ -11,11 +11,13 @@ const Button = () => {
         boxShadow:
           "rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px",
         textAlign: "right",
-        backgroundSize: "100% auto",
+        backgroundSize: "60%",
+        backgroundPosition: "left",
+        backgroundRepeat: "no-repeat",
       }}
-      className="button bg-[url(/images/btn-bg.png)] relative h-[15vh]"
+      className="button bg-[url(/images/CardBackground.png)] relative h-[15vh]"
     >
-      <div className="flex flex-col content-center pt-6">
+      <div className="flex flex-col content-center text-left pt-6">
         <h1
           style={{
             textShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px;",
