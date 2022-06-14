@@ -3,16 +3,14 @@ import type { NextPage } from "next";
 import "../styles/Home.module.css";
 import ImageSection from "../components/ImageSection/ImageSection";
 import Service from "../components/Service/Service";
-<<<<<<< HEAD
 import Dedicamos from "../components/Dedicamos/Dedicamos";
 
-=======
 import Form from "../components/Form/Form";
 import ThirdSection from "../components/ThirdSection/ThirdSection";
-import Head from 'next/head'
-import HeroSection from '../components/HeroSection/Index'
-import '../styles/Home.module.css'
->>>>>>> d5ae8085cd446cad7b674ea925cc56ffdef7caf9
+import Head from "next/head";
+import HeroSection from "../components/HeroSection/Index";
+import WherePage from "../components/WherePage";
+import "../styles/Home.module.css";
 const Home: NextPage = () => {
   return (
     <div>
@@ -22,15 +20,13 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <ImageSection />
-<<<<<<< HEAD
+      <WherePage />
       <Dedicamos />
-=======
-      <HeroSection/>
+      <HeroSection />
       <Service />
       <ThirdSection />
       <Form />
       {/* <Form /> */}
->>>>>>> d5ae8085cd446cad7b674ea925cc56ffdef7caf9
     </div>
   );
 };
