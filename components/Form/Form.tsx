@@ -8,8 +8,8 @@ import Sidebar from "./Components/Sidebar";
 
 const Form = () => {
   return (
-    <div className="relative mt-[50rem]">
-      <div className="bg-[url(/images/Asset9.png)] bg-cover  h-[100%] flex justify-center flex-col bg-no-repeat p-5 pt-[10rem]">
+    <div className="relative h-[100%] mt-[50rem]">
+      <div className="bg-[url(/images/Asset9.png)] bg-cover  h-[100%] flex justify-center flex-col bg-no-repeat p-5 pt-[10rem] pb-[20rem]">
         <p className=" text-center font-normal">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
           repellat iste eveniet aperiam eligendi libero totam

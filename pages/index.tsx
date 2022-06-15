@@ -28,7 +28,6 @@ const Home: NextPage = () => {
         <ThirdSection />
         <Form />
       </div>
-      {/* <Form /> */}
     </div>
   );
 };
