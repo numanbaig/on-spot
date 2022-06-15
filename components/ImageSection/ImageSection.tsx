@@ -1,5 +1,11 @@
 import React from "react";
 import Link from "next/link";
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import WorkRoundedIcon from '@mui/icons-material/WorkRounded';
+import MonetizationOnRoundedIcon from '@mui/icons-material/MonetizationOnRounded';
+import HandshakeRoundedIcon from '@mui/icons-material/HandshakeRounded';
 const ImageSection = () => {
   return (
     <div
@@ -9,14 +15,13 @@ const ImageSection = () => {
     >
       <div className="flex flex-col absolute left-0 top-[150px] bg-[#fff] p-2 rounded-r-lg">
         {[
-          { image: "/images/fb.png" },
-          { image: "/images/fb.png" },
-          {
-            image: "/images/twitter.png",
-          },
+          {icon: <FacebookIcon sx={{color:"#fff"  ,fontSize: 40 }}/>},
+          {icon: <InstagramIcon sx={{color:"#fff",  fontSize: 40 }}/>},
+          {icon: <TwitterIcon sx={{color:"#fff" , fontSize: 40 }}/>},
+
         ].map((item, index) => (
-          <div key={index} className="flex justify-center items-center m-2">
-            <img className="w-[30px]  h-[30px]" src={item.image} />
+          <div key={index} className="flex rounded-lg shadow-xl justify-center items-center m-2 p-[.3rem]" style={{backgroundColor:'var( --color-primary)'}} >
+            {item.icon}
           </div>
         ))}
       </div>
@@ -46,14 +51,12 @@ const ImageSection = () => {
           </h1>
           <div className="flex absolute left-[160px]  top-[0px]">
             {[
-              { image: "/images/fb.png" },
-              { image: "/images/fb.png" },
-              {
-                image: "/images/twitter.png",
-              },
+             {icon:<WorkRoundedIcon/>},
+             {icon:<MonetizationOnRoundedIcon/>},
+             {icon:<HandshakeRoundedIcon/>},
             ].map((item, index) => (
-              <div key={index} className="flex justify-center items-center m-2">
-                <img className="w-[20px]  h-[20px]" src={item.image} />
+              <div key={index} className="flex justify-center items-center m-2 rounded-full p-[.3rem]" style={{backgroundColor:'var(--color-primary)'}}>
+                {item.icon}
               </div>
             ))}
           </div>
