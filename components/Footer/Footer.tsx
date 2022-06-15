@@ -8,8 +8,8 @@ export default function footer() {
   return (
     
     <footer className= " flex flex-col justify-center items-center bottom-2  w-screen h-screen bg-[url(/images/footerimg.png)] bg-cover bg-no-repeat bg-center relative z-50">
-      <div className=" h-screen w-screen flex flex-col justify-center
-      gap-20 items-center  absolute">
+      <div className=" w-screen flex flex-col justify-center
+      gap-20 items-center">
 
 <div className="flex justify-evenly items-center relative w-full h-full">
         <div className="flex flex-col w-80  font-bold">
