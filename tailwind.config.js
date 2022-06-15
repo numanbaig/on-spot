@@ -1,3 +1,5 @@
+const { url } = require("inspector");
+
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -10,18 +12,21 @@ module.exports = {
       lg: "976px",
       xl: "1440px",
     },
-    colors: {
-      green: "red",
-    },
+    // colors: {
+    //   green: "red",
+    //   whitw:"rgb(255 255 255)"
+  
+    // },
     fontFamily: {
       sans: ["Graphik", "sans-serif"],
       serif: ["Merriweather", "serif"],
     },
     extend: {
-      spacing: {
-        128: "32rem",
-        144: "36rem",
-      },
+      
+        spacing: {
+          128: "32rem",
+          144: "36rem",
+        },
       borderRadius: {
         "4xl": "2rem",
       },
