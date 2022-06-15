@@ -9,8 +9,8 @@ import Footer from '../Footer/Footer'
 
 const Form = () => {
   return (
-    <div className="relative h-[100%] mt-[47rem]">
-      <div className="bg-[url(/images/Asset9.png)] bg-contain  h-[100%] flex justify-center flex-col bg-no-repeat p-5 pt-[10rem] pb-[20rem]">
+    <div className="relative h-[100%] mt-[40rem]">
+      <div style={{ backgroundSize: '100% 100%' }} className="bg-[url(/images/Asset9.png)]  h-[100%] flex justify-center flex-col bg-no-repeat p-5 pt-[10rem] pb-[20rem]">
         <p className=" text-center font-normal">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
           repellat iste eveniet aperiam eligendi libero totam
@@ -23,7 +23,7 @@ const Form = () => {
           <div
             className="sm:hidden xl:block lg:block md:hidden
           w-[37%]
-           xl:right-[-184px] lg:right-[-12px] absolute bottom-0"
+           xl:right-[-150px] lg:right-[-12px] absolute bottom-0"
           >
             <Image src={girlImage} alt="img" />
           </div>
