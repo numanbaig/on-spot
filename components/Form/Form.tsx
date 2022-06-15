@@ -9,7 +9,7 @@ import Footer from '../Footer/Footer'
 
 const Form = () => {
   return (
-    <div className="relative h-[100%] mt-[50rem]">
+    <div className="relative h-[100%] mt-[47rem]">
       <div className="bg-[url(/images/Asset9.png)] bg-contain  h-[100%] flex justify-center flex-col bg-no-repeat p-5 pt-[10rem] pb-[20rem]">
         <p className=" text-center font-normal">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
@@ -92,7 +92,7 @@ const Form = () => {
       <div className="absolute top-[20%] xl:w-[550px] lg:w-[302px] md:w-[320px]">
         <Sidebar />
       </div>
-     <div className="absolute bottom-[-509px]"> <Footer/></div>
+     <div className="absolute bottom-[-468px]"> <Footer/></div>
     </div>
   );
 };

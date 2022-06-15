@@ -6,7 +6,7 @@ import bgImage from "../../assets/images/bg-one.jpg";
 
 export default function footer() {
   return (
-    <div className="relative">
+    <div className="relative overflow-x-hidden">
       <footer className=" flex flex-col justify-center items-center h-[650px]  w-full  bg-[url(/images/Section7Bg.png)] bg-cover bg-no-repeat relative z-2">
         <div
           className=" w-screen flex flex-col justify-center
