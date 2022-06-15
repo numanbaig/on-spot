@@ -22,12 +22,12 @@ const Home: NextPage = () => {
       </Head>
       <div>
         <ImageSection />
-          <HeroSection />
-            <WherePage />
-            <Dedicamos />
-            <ThirdSection />
-            <Service />
-            <Section7 /> 
+        <HeroSection />
+        <WherePage />
+        <Dedicamos />
+        <ThirdSection />
+        <Service />
+        <Section7 />
         <Form />
       </div>
       {/* <Form /> */}
