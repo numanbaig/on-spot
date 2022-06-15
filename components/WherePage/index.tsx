@@ -5,7 +5,7 @@ import SideBtn from "./Components/SideBtn";
 
 const index = () => {
   return (
-    <div className="flex bg-[url('/images/asset6.png')] bg-cover h-[700px] items-center justify-center gap-x-[10rem] pb-[3rem]">
+    <div className="flex bg-[url('/images/asset6.png')] bg-cover h-[700px] items-center justify-center gap-x-[10rem] pb-[3rem] relative">
       <div>
         <Image src={mapImg} alt="" />
       </div>
