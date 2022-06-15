@@ -4,6 +4,7 @@ import SoundIcon from "../../public/images/SoundIcon.png";
 import HammerIcon from "../../public/images/HammerIcon.png";
 import HandIcon from "../../public/images/HandIcon.png";
 import HandDollerIcon from "../../public/images/HandDollerIcon.png";
+import Form from '../Form/Form'
 const data = [
   {
     heading: "OPCIÓN DE",
@@ -33,14 +34,14 @@ const data = [
 
 const Service = () => {
   return (
-    <div className="bg-[url('/images/Section7Bg.png')] w-full lg:aspect-[1] xl:aspect-[2]  bg-no-repeat flex items-center justify-around flex-col  relative  top-[-723px] md:pb-[100px]">
+    <div className="bg-[url('/images/Section7Bg.png')] w-full lg:aspect-[1] xl:aspect-[2]  bg-no-repeat flex items-center justify-around flex-col  relative md:pb-[100px]">
       <h1 className=" absolute top-[125px] left-[205px] text-6xl font-black leading-7   ">
         {/* Serviceios */}
       </h1>
       <div className="flex justify-around w-[100%] absolute top-[30%]  flex-wrap ">
         {data.map((items: any, index) => {
           return (
-            <div className=" ">
+            <div className=" " key={items}>
               <Cards
                 textColor="light"
                 heading={items.heading}

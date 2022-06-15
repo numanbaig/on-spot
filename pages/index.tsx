@@ -26,8 +26,6 @@ const Home: NextPage = () => {
         <WherePage />
         <Dedicamos />
         <ThirdSection />
-        <Service />
-        <Section7 />
         <Form />
       </div>
       {/* <Form /> */}

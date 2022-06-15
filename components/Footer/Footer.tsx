@@ -7,7 +7,7 @@ import bgImage from "../../assets/images/bg-one.jpg";
 export default function footer() {
   return (
     
-    <footer className= " flex flex-col justify-center items-center bottom-2  w-screen h-screen bg-[url(/images/footerimg.png)] bg-cover bg-no-repeat bg-center relative z-50">
+    <footer className= " flex flex-col justify-center items-center bottom-2  w-full  bg-[url(/images/footerimg.png)] bg-cover bg-no-repeat bg-center relative z-2">
       <div className=" w-screen flex flex-col justify-center
       gap-20 items-center">
 

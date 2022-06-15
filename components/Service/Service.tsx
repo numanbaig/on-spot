@@ -2,6 +2,7 @@ import React from "react";
 import Cards from "../Cards/Cards";
 import SoundIcon from "../../public/images/SoundIcon.png";
 import Location from "../../public/images/LocationIcon.png";
+import Section7 from "../Section7";
 import VentaIcon from "../../public/images/VentaIcon.png";
 const data = [
   {
@@ -32,8 +33,8 @@ const data = [
 
 const Service = () => {
   return (
-    <div className="bg-[url('/images/Section5.png')] w-full flex-col pt-[5.5rem] bg-cover bg-no-repeat relative top-[-551px]  lg:pb-[200px] ">
-      <h1 className="text-6xl font-bold leading-7 pb-[121px] pl-[224px]">
+    <div className="bg-[url('/images/Section5.png')] w-full flex-col pt-[5.5rem] bg-cover bg-no-repeat relative">
+      <h1 className="text-6xl font-bold leading-7 pb-[121px] pl-[339px]">
         Serviceios
       </h1>
       <div className="flex flex-wrap justify-around">
@@ -53,6 +54,9 @@ const Service = () => {
             </div>
           );
         })}
+      </div>
+      <div>
+        <Section7 />
       </div>
     </div>
   );

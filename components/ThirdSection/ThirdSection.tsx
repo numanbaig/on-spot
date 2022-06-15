@@ -3,6 +3,7 @@ import React from "react";
 import sideImg from "../../public/images/sideImg.png";
 import logos from "../../public/images/lgos.png";
 import Button from "../Common/Button";
+import Services from '../Service/Service'
 
 const ThirdSection = () => {
   return (
@@ -22,6 +23,7 @@ const ThirdSection = () => {
       <div className="absolute top-[17%] w-[100%] max-w-[500px]">
         <Button heading={'¿QUIÉNES'} subheading={'CON REPRESENTACIÓN'} description={'SOMOS?'}/>
       </div>
+      <div className="absolute w-full xl:top-[795px] md:top-[32rem] sm:top-[27rem]" ><Services/></div>
     </div>
   );
 };
