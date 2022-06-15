@@ -12,7 +12,7 @@ export default function footer() {
           className=" w-screen flex flex-col justify-center
       gap-20 items-center"
         >
-          <div className="flex justify-evenly items-center relative w-full h-full">
+          <div className="flex justify-center gap-x-[12em] items-center relative w-full h-full">
             <div className="flex flex-col w-80  font-bold">
               <h3 className="text-2xl text-white">DE LASPRINCIPALES</h3>
               <h2 className="text-4xl text-white ">PLATAFORMAS</h2>
@@ -23,18 +23,24 @@ export default function footer() {
 
             <div className="flex flex-col gap-5 justify-center">
               <div className="flex flex-col gap-3 text-white font-thin">
-                <li className="list-none gap-9 tracking-widest">NOSOTROS</li>
-                <li className="list-none gap-9 tracking-widest">SERVICIOS</li>
-                <li className="list-none gap-9 tracking-widest">EN LALEXPO</li>
-                <li className="list-none gap-9 tracking-widest ">
+                <li className="list-none gap-[1rem] tracking-widest">NOSOTROS</li>
+                <li className="list-none gap-[1rem] tracking-widest">SERVICIOS</li>
+                <li className="list-none gap-[1rem] tracking-widest">EN LALEXPO</li>
+                <li className="list-none gap-[1rem] tracking-widest ">
                   CONTACTENOS
                 </li>
               </div>
 
               <div className=" flex gap-3 ">
-                <FacebookIcon className="text-3xl text-[#8BD10D]" />
-            <InstagramIcon className="text-3xl text-[#8BD10D]" />
-            <TwitterIcon className="text-3xl text-[#8BD10D]" />
+                <div className="bg-[#8BD10D] p-[0.5rem] rounded">
+                  <FacebookIcon className="text-3xl text-[#ffff] " />
+                </div>
+                <div className="bg-[#8BD10D] p-[0.5rem] rounded">
+                  <InstagramIcon className="text-3xl text-[#ffff]" />
+                </div>
+                <div className="bg-[#8BD10D] p-[0.5rem] rounded">
+                  <TwitterIcon className="text-3xl text-[#ffff]" />
+                </div>
               </div>
             </div>
           </div>
@@ -45,4 +51,4 @@ export default function footer() {
       </div>
     </div>
   );
-};
+}
