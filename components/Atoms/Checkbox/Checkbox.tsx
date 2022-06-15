@@ -1,10 +1,20 @@
 import React from "react";
 
-const Checkbox = ({ label }: any) => {
+interface CheckBoxProps {
+  label: string;
+  value: boolean;
+  onChange: () => void;
+}
+const Checkbox = ({ label, value, onChange }: CheckBoxProps) => {
   return (
     <form>
       <span className="mr-2">{label}</span>
-      <input type="checkbox" className="accent-[#8BD10B] checked:bg-[#ffff]" />
+      <input
+        onChange={onChange}
+        checked={value}
+        type="checkbox"
+        className="accent-[#8BD10B] checked:bg-[#ffff]"
+      />
     </form>
   );
 };

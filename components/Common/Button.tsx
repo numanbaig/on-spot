@@ -1,13 +1,12 @@
 import React from "react";
 
-
-interface IProps{
-  heading?:string,
-  subheading?:string,
-  description?:string,
+interface IProps {
+  heading?: string;
+  subheading?: string;
+  description?: string;
 }
 
-const Button = ({heading,subheading,description}:IProps) => {
+const Button = ({ heading, subheading, description }: IProps) => {
   return (
     <div
       style={{
@@ -22,6 +21,7 @@ const Button = ({heading,subheading,description}:IProps) => {
         backgroundSize: "60%",
         backgroundPosition: "left",
         backgroundRepeat: "no-repeat",
+        minHeight: "14px",
       }}
       className="button bg-[url(/images/CardBackground.png)] h-[15vh]"
     >
@@ -52,10 +52,9 @@ const Button = ({heading,subheading,description}:IProps) => {
             fontSize: 30,
             textAlign: "right",
             marginLeft: 100,
-
           }}
         >
-         {description?description:''}
+          {description ? description : ""}
         </h1>
       </div>
     </div>
