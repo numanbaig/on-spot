@@ -89,10 +89,10 @@ const Form = () => {
           </div>
         </div>
       </div>
-      <div className="absolute top-[20%] xl:w-[550px] lg:w-[302px] md:w-[320px]">
+      <div className="absolute top-[20%] xl:w-[500px] lg:w-[302px] md:w-[320px]">
         <Sidebar />
       </div>
-     <div className="absolute bottom-[-468px]"> <Footer/></div>
+      <div className="absolute bottom-[-468px]"> <Footer /></div>
     </div>
   );
 };
