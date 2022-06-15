@@ -1,7 +1,7 @@
 import React from "react";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import TwitterIcon from "@mui/icons-material/Twitter";
+// import FacebookIcon from "@mui/icons-material/Facebook";
+// import InstagramIcon from "@mui/icons-material/Instagram";
+// import TwitterIcon from "@mui/icons-material/Twitter";
 import bgImage from "../../assets/images/bg-one.jpg";
 
 export default function footer() {
@@ -30,9 +30,9 @@ export default function footer() {
           </div>
 
           <div className=" flex gap-3 ">
-            <FacebookIcon className="text-3xl text-[#8BD10D]" />
+            {/* <FacebookIcon className="text-3xl text-[#8BD10D]" />
             <InstagramIcon className="text-3xl text-[#8BD10D]" />
-            <TwitterIcon className="text-3xl text-[#8BD10D]" />
+            <TwitterIcon className="text-3xl text-[#8BD10D]" /> */}
           </div>
         </div>
         </div>

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Button = () => {
+const Button = ({heading,subheading,description}) => {
   return (
     <div
       style={{
@@ -26,7 +26,7 @@ const Button = () => {
             textAlign: "center",
           }}
         >
-          ¿QUIÉNES
+          {heading}
         </h1>
         <p
           style={{
@@ -36,7 +36,7 @@ const Button = () => {
             textAlign: "center",
           }}
         >
-          CON REPRESENTACIÓN
+          {subheading}
         </p>
         <p
           style={{
@@ -44,10 +44,10 @@ const Button = () => {
             fontSize: 16,
             textAlign: "center",
             marginLeft: 100,
-            // paddingTop: 10,
+
           }}
         >
-          SOMOS?
+         {description?description:''}
         </p>
       </div>
     </div>
