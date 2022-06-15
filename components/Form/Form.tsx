@@ -5,6 +5,7 @@ import Checkbox from "../Atoms/Checkbox/Checkbox";
 import girlImage from "../../public/images/sideGirl.png";
 import Input from "../Atoms/Input/Input";
 import Sidebar from "./Components/Sidebar";
+import Footer from '../Footer/Footer'
 
 const Form = () => {
   return (
@@ -91,6 +92,7 @@ const Form = () => {
       <div className="absolute top-[20%] xl:w-[550px] lg:w-[302px] md:w-[320px]">
         <Sidebar />
       </div>
+     <div className="absolute"> <Footer/></div>
     </div>
   );
 };
