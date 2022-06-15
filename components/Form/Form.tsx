@@ -16,7 +16,7 @@ const Form = () => {
         </p>
         <div
           className="mt-5 mx-auto bg-no-repeat xl:w-[80%] lg:w-[100%] md:w-[100%] sm:w-[100%] 
-        xs:w-[100%] h-[729px] bg-[#ffff] rounded-[50px] 
+        xs:w-[100%] h-[100%] bg-[#ffff] rounded-[50px] 
         flex xl:pl-[70px] lg:pl-[20px] md:pl-[10px]shadow-lg shadow-cyan-500/50 relative"
         >
           <div
