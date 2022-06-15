@@ -11,16 +11,16 @@ const ImageSection = () => {
     <div
       style={{ backgroundSize: "100% auto" }}
       className="relative aspect-[3/2] flex  justify-center 
-        bg-[url(/images/section1-bg.png)] no-repeat bg-top bg-no-repeat bottom-[6rem]"
+        bg-[url(/images/section1.jpg)] no-repeat bg-top bg-no-repeat bottom-[6rem]"
     >
       <div className="flex flex-col absolute left-0 top-[150px] bg-[#fff] p-2 rounded-r-lg">
         {[
-          {icon: <FacebookIcon sx={{color:"#fff"  ,fontSize: 40 }}/>},
-          {icon: <InstagramIcon sx={{color:"#fff",  fontSize: 40 }}/>},
-          {icon: <TwitterIcon sx={{color:"#fff" , fontSize: 40 }}/>},
+          { icon: <FacebookIcon sx={{ color: "#fff", fontSize: 40 }} /> },
+          { icon: <InstagramIcon sx={{ color: "#fff", fontSize: 40 }} /> },
+          { icon: <TwitterIcon sx={{ color: "#fff", fontSize: 40 }} /> },
 
         ].map((item, index) => (
-          <div key={index} className="flex rounded-lg shadow-xl justify-center items-center m-2 p-[.3rem]" style={{backgroundColor:'var( --color-primary)'}} >
+          <div key={index} className="flex rounded-lg shadow-xl justify-center items-center m-2 p-[.3rem]" style={{ backgroundColor: 'var( --color-primary)' }} >
             {item.icon}
           </div>
         ))}
@@ -51,11 +51,11 @@ const ImageSection = () => {
           </h1>
           <div className="flex absolute left-[160px]  top-[0px]">
             {[
-             {icon:<WorkRoundedIcon/>},
-             {icon:<MonetizationOnRoundedIcon/>},
-             {icon:<HandshakeRoundedIcon/>},
+              { icon: <WorkRoundedIcon /> },
+              { icon: <MonetizationOnRoundedIcon /> },
+              { icon: <HandshakeRoundedIcon /> },
             ].map((item, index) => (
-              <div key={index} className="flex justify-center items-center m-2 rounded-full p-[.3rem]" style={{backgroundColor:'var(--color-primary)'}}>
+              <div key={index} className="flex justify-center items-center m-2 rounded-full p-[.3rem]" style={{ backgroundColor: 'var(--color-primary)' }}>
                 {item.icon}
               </div>
             ))}
