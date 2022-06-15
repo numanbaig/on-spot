@@ -6,13 +6,12 @@ import bgImage from "../../assets/images/bg-one.jpg";
 
 export default function footer() {
   return (
-    <div className="relative overflow-x-hidden">
-      <footer className=" flex flex-col justify-center items-center h-[650px]  w-full  bg-[url(/images/Section7Bg.png)] bg-cover bg-no-repeat relative z-2">
+    <div className="relative">
+      <footer className=" flex flex-col justify-center items-center h-[650px]  w-[100%]  bg-[url(/images/Section7Bg.png)] bg-cover bg-no-repeat">
         <div
-          className=" w-screen flex flex-col justify-center
-      gap-20 items-center"
+          className="w-[99.2vw] flex flex-col justify-center items-center overflow-hidden"
         >
-          <div className="flex justify-center gap-x-[12em] items-center relative w-full h-full">
+          <div className="flex justify-center gap-x-[12em] items-center w-full h-full overflow-hidden">
             <div className="flex flex-col w-80  font-bold">
               <h3 className="text-2xl text-white">DE LASPRINCIPALES</h3>
               <h2 className="text-4xl text-white ">PLATAFORMAS</h2>
@@ -23,9 +22,15 @@ export default function footer() {
 
             <div className="flex flex-col gap-5 justify-center">
               <div className="flex flex-col gap-3 text-white font-thin">
-                <li className="list-none gap-[1rem] tracking-widest">NOSOTROS</li>
-                <li className="list-none gap-[1rem] tracking-widest">SERVICIOS</li>
-                <li className="list-none gap-[1rem] tracking-widest">EN LALEXPO</li>
+                <li className="list-none gap-[1rem] tracking-widest">
+                  NOSOTROS
+                </li>
+                <li className="list-none gap-[1rem] tracking-widest">
+                  SERVICIOS
+                </li>
+                <li className="list-none gap-[1rem] tracking-widest">
+                  EN LALEXPO
+                </li>
                 <li className="list-none gap-[1rem] tracking-widest ">
                   CONTACTENOS
                 </li>
